@@ -1,14 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnchor } from '@fortawesome/free-solid-svg-icons';
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <FontAwesomeIcon icon={faAnchor} size="2x"/>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
+                <h1>Justin Haupt</h1>
                 <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
                 for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
             </div>
