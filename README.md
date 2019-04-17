@@ -1,4 +1,4 @@
 # Portfolio
 **Made with Gatsby.js V2.**
 
-Visit: [www.jhaupt.com](www.jhaupt.com)
+Visit: [www.jhaupt.com](http://www.jhaupt.com)
