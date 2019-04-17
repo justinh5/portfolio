@@ -5,21 +5,21 @@ import Footer from '../components/Footer';
 
 class IndexPage extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      loading: 'is-loading'
+      loading: 'is-loading',
     };
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
+      this.setState({ loading: '' });
     }, 100);
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+      clearTimeout(this.timeoutId);
     }
   }
 
@@ -28,14 +28,14 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading}`}>
           <div id="wrapper">
-            <Header/>
-            <Footer/>
+            <Header />
+            <Footer />
           </div>
-          <div id="bg"></div>
+          <div id="bg" />
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default IndexPage
+export default IndexPage;
