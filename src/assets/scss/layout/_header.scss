@@ -96,6 +96,8 @@
 				list-style: none;
 				padding-left: 0;
 				border-top: solid _size(border-width) _palette(border);
+				// justify-content: center;
+				// align-items: center;
 
 				li {
 					padding-left: 0;
@@ -104,6 +106,7 @@
 						display: block;
 						padding: 1rem 1.5rem;
 						border-bottom: 0;
+						text-align: center;
 
 						&:hover {
 							opacity: 0.5;
@@ -212,30 +215,10 @@
 
 			nav {
 				ul {
-					@include vendor('flex-direction', 'column');
-					min-width: 10rem;
-					max-width: 100%;
-
 					li {
-						border-left: 0;
-						border-top: solid _size(border-width) _palette(border);
-
-						&:first-child {
-							border-top: 0;
-						}
-
 						a {
-							height: 3rem;
-							line-height: 3rem;
-							min-width: 0;
-							width: 100%;
+							padding: 1rem 0.5rem;
 						}
-					}
-				}
-
-				&.use-middle {
-					&:after {
-						display: none;
 					}
 				}
 			}
