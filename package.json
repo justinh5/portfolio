@@ -1,22 +1,23 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "description": "Portfolio site",
   "version": "1.0.0",
   "author": "Justin Haupt",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.17",
-    "@fortawesome/free-brands-svg-icons": "^5.8.1",
-    "@fortawesome/free-solid-svg-icons": "^5.8.1",
-    "@fortawesome/react-fontawesome": "^0.1.4",
-    "gatsby": "^2.2.9",
-    "gatsby-plugin-manifest": "^2.0.24",
-    "gatsby-plugin-offline": "^2.0.25",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sass": "^2.0.11",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0"
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "gatsby": "^5.2.0",
+    "gatsby-cli": "^5.2.0",
+    "gatsby-plugin-manifest": "^5.2.0",
+    "gatsby-plugin-offline": "^6.2.0",
+    "gatsby-plugin-react-helmet": "^6.2.0",
+    "gatsby-plugin-sass": "^6.2.0",
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "keywords": [
     "gatsby"
@@ -36,6 +37,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinh5/portfolio"
-  }
+    "url": "git+https://github.com/justinh5/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinh5/portfolio/issues"
+  },
+  "homepage": "https://github.com/justinh5/portfolio#readme",
+  "main": "gatsby-config.js"
 }
