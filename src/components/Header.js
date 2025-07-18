@@ -20,7 +20,7 @@ const Header = props => (
         <h1>Justin Scott Haupt</h1>
         <h2>Portland, OR</h2>
         <p>
-          Software Engineer | Full-Stack Web Developer | Illustrator
+          Software Engineer
         </p>
       </div>
     </div>
