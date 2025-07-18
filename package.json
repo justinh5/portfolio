@@ -38,4 +38,7 @@
     "type": "git",
     "url": "https://github.com/justinh5/portfolio.git"
   }
+  "engines": {
+    "node": "18"
+  }
 }
