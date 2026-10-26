@@ -52,7 +52,7 @@ const Header = props => (
           </a>
         </li>
         <li>
-          <a href="mailto:jhaupt100@gmail.com" title="Contact">
+          <a href="mailto:jhaupt2@icloud.com" title="Contact">
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
         </li>
